@@ -1,0 +1,22 @@
+{
+    "name": "shotmann/laravel-metapackage",
+    "description": "Laravel package to install all my favorite laravel packages at once",
+    "type": "metapackage",
+    "require": {
+        "muan/laravel-acl": "^1.3",
+        "bpocallaghan/impersonate": "^1.0",
+        "liliom/laravel-inbox": "^1.0",
+        "laracasts/flash": "^3.1",
+        "rachidlaasri/laravel-installer": "^4.1"
+    },
+    "require-dev": {
+        "laracasts/generators": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sylvian ROPERT",
+            "email": "sylvian.ropert@gmail.com"
+        }
+    ]
+}
