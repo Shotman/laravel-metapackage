@@ -9,7 +9,8 @@
         "rachidlaasri/laravel-installer": "^4.1"
     },
     "require-dev": {
-        "laracasts/generators": "^1.1"
+        "laracasts/generators": "^1.1",
+        "laravel/ui": "^2.0"
     },
     "license": "MIT",
     "authors": [
