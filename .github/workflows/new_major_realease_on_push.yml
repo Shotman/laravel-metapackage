@@ -3,7 +3,7 @@ name: "tagged-release"
 on: 
   push:
     branches:
-      - dev
+      - master
 
 jobs:
   release-on-push:
