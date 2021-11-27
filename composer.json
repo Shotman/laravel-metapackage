@@ -3,14 +3,31 @@
     "description": "Laravel package to install all my favorite laravel packages at once",
     "type": "metapackage",
     "require": {
-        "muan/laravel-acl": "^1.3",
-        "bpocallaghan/impersonate": "^1.0",
-        "laracasts/flash": "^3.1"
+        "php": "^8.0",
+        "bpocallaghan/impersonate": "^1.1",
+        "fruitcake/laravel-cors": "^2.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "kris/laravel-form-builder": "^1.40",
+        "laracasts/flash": "^3.2",
+        "laravel/framework": "^8.65",
+        "laravel/sanctum": "^2.11",
+        "proengsoft/laravel-jsvalidation": "^4.5",
+        "spatie/laravel-permission": "^5.4",
+        "spatie/laravel-route-attributes": "^1.9",
+        "spatie/laravel-tags": "^4.1"
     },
     "require-dev": {
-        "laracasts/generators": "^1.1",
-        "laravel/ui": "^2.0",
-        "barryvdh/laravel-debugbar": "^3.5"
+        "laracasts/generators": "^2.0",
+        "laravel/tinker": "^2.5",
+        "laravel/ui": "^3.3",
+        "mehradsadeghi/laravel-crud-generator": "^0.5.4",
+        "barryvdh/laravel-debugbar": "^3.6",
+        "facade/ignition": "^2.5",
+        "fakerphp/faker": "^1.9.1",
+        "laravel/sail": "^1.0.1",
+        "mockery/mockery": "^1.4.4",
+        "nunomaduro/collision": "^5.10",
+        "phpunit/phpunit": "^9.5.10"
     },
     "license": "MIT",
     "authors": [
